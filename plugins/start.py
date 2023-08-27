@@ -54,7 +54,7 @@ async def start_command(client: Client, message: Message):
         try:
             messages = await get_messages(client, ids)
         except:
-            await message.reply_text("Something went wrong..!😢\n Contact Admin @reteamadminbot")
+            await message.reply_text("Something went wrong..!😢")
             return
         await temp_msg.delete()
 
@@ -83,23 +83,16 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🎬 MAIN CHANNEL 🎬", url="https://t.me/+gqpU_4qsYAFmY2U1")
+                    InlineKeyboardButton("🎬 MAIN CHANNEL 🎬", url="https://t.me/+3GaGceTcxUwyNjhl")
                 ],
                 [
-                    InlineKeyboardButton("📽️ MOVIE REQUEST GROUP 📽️", url="https://t.me/+EGBu5vb1vo9jMDE1")
+                    InlineKeyboardButton("🎬 BACKUP CHANNEL 🎬", url="https://t.me/+C6bsqDISuYIxYjc9")
                 ],
                 [
-                    InlineKeyboardButton("🎬 UHD MOVIES/SERIES 🎬", url="https://t.me/+abo3FyAP1hE5MTI9")
+                    InlineKeyboardButton("📽️ MOVIE REQUEST GROUP 1📽️", url="https://t.me/+_t-yMqVExNkxOWRl")
                 ],
                 [
-                    InlineKeyboardButton("😎 MORE FROM US 📢", callback_data = "morefromus")
-                ],
-                [
-                    InlineKeyboardButton("📽️ BACKUP CHANNEL 📽️", url="https://t.me/+b8RpV89fK11kMTY9")
-                ],
-                [
-                    InlineKeyboardButton("🔉 DISCUSSION 🔉", url="https://t.me/+YcSmRvCe9xs0YjU1"),
-                    InlineKeyboardButton("❔ HELP ❓", url="https://t.me/+YcSmRvCe9xs0YjU1")
+                    InlineKeyboardButton("📽️ MOVIE REQUEST GROUP 2📽️", url="https://t.me/+_t-yMqVExNkxOWRl")
                 ],
                 [
                     InlineKeyboardButton("❕ ABOUT ❗", callback_data = "about"),
